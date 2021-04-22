@@ -4,6 +4,7 @@
         <Identity Id="StyletTemplates.d590e602-bff6-443f-8686-bb062dd0bfd6" Version="1.0.0" Language="en-US" Publisher="dady8889" />
         <DisplayName>StyletTemplates</DisplayName>
         <Description xml:space="preserve">Provides convenient item templates for Stylet.</Description>
+        <MoreInfo>https://github.com/dady8889/StyletTemplates</MoreInfo>
         <Icon>image.png</Icon>
         <PreviewImage>image.png</PreviewImage>
         <Tags>stylet, itemtemplate, csharp, template</Tags>
