@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Stylet Window-Screen</Name>
+    <Description>Window View with Screen ViewModel</Description>
+    <Icon>image.png</Icon>
+    <PreviewImage>image.png</PreviewImage>
+    <TemplateID>e9f856b4-83f0-4647-8ef3-e3ad3ec5a4cc</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Class</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$ViewModel.cs" SubType="Code">ViewModel.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$View.xaml" CustomTool="MSBuild:Compile">View.xaml</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
